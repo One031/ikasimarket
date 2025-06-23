@@ -1,0 +1,27 @@
+/* Hover effect for product cards */
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 6px rgba(244, 252, 14, 0.5) !important; /
+}
+
+/* Slightly pops up on hover */
+.card-hover:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(244, 252, 14, 0.8) !important; 
+}
+
+/* Makes placeholder text inside input white */
+.placeholder-white::placeholder {
+  color: white !important;
+  opacity: 1;
+}
+
+.hero{
+  background-color: rgb(244, 252, 14) !important;
+}
+
+/* Ensures the image on every product card is the same height and display */
+.card-img-top {
+  height: 200px !important;
+  object-fit: cover;
+}

@@ -1,0 +1,8 @@
+.env
+*.log
+.DS_Store
+.idea/
+*.sqlite
+uploads/
+functions/db.php
+
